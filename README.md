@@ -1,12 +1,12 @@
 # imWebTree
-### Version: Development 2017.1.1
-####A sample project for Xojo Web Edition.
+Version: Development 2017.1.1
+##A sample project for Xojo Web Edition.
   
 It displays a TreeView from hierarchical data, pulled from a self-referenced SQLite database table:
 
 ![<Display Name>](<https://www.osswald.com/github/imwebtree.png>)
  
-###How to use
+##How to use
 1. Create a new Web project in Xojo
 2. Copy the **webtreeview.sqlite** database file next to your new project 
 3. Copy/Paste the WebTree folder from the sample project **imWebTree.xojo_project** to your new project
@@ -33,7 +33,7 @@ file
 		End If
 10. Run your project in Xojo
 
-### Remarks
+## Remarks
 * From the Recordset we fill an Array of type imTreeNode in the right order of appearence of the nodes
 * From the array we call the DrawNode method for each imWebTreeNode and store the node in the Rows() Array of the imWebTree object
 * Each imWebTreeNode has a RowTag property of type imTreeNode where all its database values are stored 
